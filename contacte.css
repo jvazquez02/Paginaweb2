@@ -1,0 +1,80 @@
+body  {
+    background-color: #dde8ff;
+    font-family: cambria;
+}
+
+.button{
+    float: right;
+    margin-right: 40px;
+    margin-top:10px;
+    font-family: cambria;
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: rgba(14,38,79,0.95);
+    border-color: rgba(34, 67, 129, 0.95);
+    border-width: 3px;
+    border-style: solid;
+
+
+}
+
+.button:hover {
+    transform: translateY(2px);
+    cursor: pointer;
+}
+
+.primerdiv{
+   margin-top: 10%;
+}
+.primerdiv h1{
+    text-align: center;
+    color: black;
+}
+
+
+.from{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgba(14,38,79,0.95);
+    padding: 20px 40px;
+    outline: none;
+    color: whitesmoke;
+    transition: 0.5s;
+    font-family: cambria;
+}
+.text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.text{
+    resize: none;
+    height: 120px;
+}
+.contacte{
+    float: right;
+    border: 0;
+    background: rgba(14,38,79,0.95);
+    color: whitesmoke;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contacte:hover{
+    background: rgba(14,38,79,0.95);
+}
